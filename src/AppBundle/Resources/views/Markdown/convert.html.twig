@@ -1,0 +1,12 @@
+{% extends "::base.html.twig" %}
+
+{% block title %}AppBundle:Markdown:convert{% endblock %}
+
+{% block body %}
+    <h1>Welcome to the Markdown:convert page</h1>
+    {{ form_start(form) }}
+    {{ form_widget(form) }}
+    {{ form_end(form) }}
+    <hr>
+    {{ text }}
+{% endblock %}
